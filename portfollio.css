@@ -1,0 +1,90 @@
+@import url(/style.css);
+
+.hero-img{
+    width: 900px;
+    height: 350px;
+        background: linear-gradient(180deg, #b8b9c0 0%, #5e5f6c 35%, #353543 65.00%);
+    filter: drop-shadow(2px 2px 10px #00000080);
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+}
+.my_porject{
+    width: 300px;
+    height: 250px;
+    background-color:#e4c479;
+    filter: drop-shadow(2px 2px 10px #00000080);
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 1px 1px 6px 2px #b8b9c0;
+    transition: all .55s ease;
+}
+.my_porject:hover{
+    background-color: #e4c479a6;
+    transition: all .55s ease;
+}
+.my_porject h4{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.my_porject img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.my_porject p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        display: block;
+        flex-direction: column;
+        position: relative;
+        height: 400px;
+        width: 400px;
+    }
+        .my_porject{
+            height: 150px;
+            width: 390px;
+            margin-top: 43px;
+        }
+        .hero-img {
+            margin-top:180px;
+            width: 410px;
+            height: 650px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .my_porject img {
+            margin: 5px;
+            width: 200px;
+            height: 80px;
+        }
+        .my_porject h4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 5px;
+            bottom: 60px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+        .my_porject p{
+            font-size: 12px;
+            margin-top: 30px;
+            text-align: center;
+        }
+}
