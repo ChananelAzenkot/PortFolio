@@ -14,12 +14,14 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    height: 80px;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 33px 9%;
     background: transparent;
+    background-color: #353543;
 }
 
 .logo{
@@ -56,6 +58,7 @@ header{
 .hero{
     height: 100%;
     width: 100%;
+    margin-top: 50px;
     min-height: 100vh;
     background: linear-gradient(360deg, #b8b9c0 0%, #5e5f6c 35%, #353543 65.00%);
     position: relative;
