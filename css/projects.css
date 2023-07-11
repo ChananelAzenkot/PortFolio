@@ -28,6 +28,7 @@
 .project-all{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 .my_porject{
     width: 400px;
