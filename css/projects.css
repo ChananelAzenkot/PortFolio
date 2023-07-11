@@ -47,10 +47,12 @@
 }
 .my_porject h4{
     color: white;
-    text-decoration: underline;
+    font-size: 20px;
     text-align: center;
     align-items: center;
     margin-bottom: 5px;
+    font-family: 'Chelsea Market',cursive;
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.704);
 }
 .my_porject img{
     width: 300px;
@@ -139,7 +141,7 @@
     }
     .hero-img {
         width: 350px;
-        height: 550px;
+        height: 560px;
         background: linear-gradient(180deg, #b8b9c0 0%, #5e5f6c 35%, #42424e 65.00%);
         display: flex;
         flex-direction: row;
@@ -177,7 +179,6 @@
     }
     .my_porject h4{
         color: white;
-        text-decoration: underline;
         text-align: center;
         align-items: center;
         margin-bottom: 5px;

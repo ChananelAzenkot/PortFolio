@@ -25,6 +25,18 @@ body{
 }
 
 @media (max-width: 768px) {
+
+    .hero-text{
+        display: block;
+        flex-direction: column;
+        position: relative;
+        height: 200px;
+        width: 400px;
+        text-align: justify;
+        font-size: 14px;
+        margin-top: 40px;
+        text-align: justify;
+    }
     .hero-text p{
         display: block;
         flex-direction: column;
@@ -34,10 +46,12 @@ body{
         text-align: justify;
         font-size: 14px;
         margin-top: 0;
+        margin-bottom: 0;
         text-align: justify;
     }
     .underlineAbout {
         width: 390px;
+        margin-top:0;
     }
         .hero-img{
         display: block;
