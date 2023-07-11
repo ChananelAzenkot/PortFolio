@@ -17,6 +17,11 @@ body{
     margin-top: 550px;
     margin-left: 350px;
     margin-right: 0;
+    text-align: center;
+}
+
+.hero-text p{
+    text-align: center;
 }
 
 @media (max-width: 768px) {
