@@ -2,7 +2,7 @@
 
 .hero-img {
     width: 400px;
-    height: 500px;
+    height: 550px;
     background: linear-gradient(180deg, #b8b9c0 0%, #5e5f6c 35%, #353543 65.00%);
     filter: drop-shadow(2px 2px 8px #ffffff80);
     display: flex;
@@ -108,21 +108,29 @@
 }
 
 .btnProject{
-    text-align: center;
-    padding: 4px;
-    color: #e4c479a6;
+    display: inline-block;
+    color: white;
+    background: #5e5f6c;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
     font-size: 14px;
-    margin-right: 10px;
-    font-weight: 600;
-    border: 1px solid #e4c479a6;
-    border-radius: 10px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
 }
 
 .btnProject:hover{
-    background-color: #e4c479a6;
-    color: white;
+    background: transparent;
+    border: 1px solid #e4c479;
+    transform: translateX(8px);
+    color: #e4c479;
     transition: all .55s ease;
+    box-shadow: 1px 1px 4px #b8b9c0;
+    text-shadow: 1px 2px 8px #ffffff80;
 }
+
 
 @media (max-width: 768px) {
     .hero{
@@ -131,7 +139,7 @@
     }
     .hero-img {
         width: 350px;
-        height: 500px;
+        height: 550px;
         background: linear-gradient(180deg, #b8b9c0 0%, #5e5f6c 35%, #42424e 65.00%);
         display: flex;
         flex-direction: row;
