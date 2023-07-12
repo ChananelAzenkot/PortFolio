@@ -11,7 +11,6 @@
     border-radius: 15px;
     display:flex;
     justify-content: center;
-
     color: white;
     border: 1px solid transparent;
     padding: 12px 30px;
@@ -172,6 +171,16 @@
         margin: 10px;
         border-radius: 15px;
     }
+
+        .hero-img:hover {
+            background: transparent;
+            border: 2px solid #e4c479;
+            transform: translateX(8px);
+            color: #e4c479;
+            transition: all .55s ease;
+            box-shadow: 1px 1px 4px #b8b9c0;
+            text-shadow: 1px 2px 8px #ffffff80;
+        }
     .hero-text{
         width: 300px;
         height: 350px;
