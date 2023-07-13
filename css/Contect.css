@@ -188,6 +188,7 @@ section {
      border-radius: 5px;
      color: #e4c479;
      text-shadow: 1px 1px 6px white; 
+    text-transform: uppercase;
  }
 
  label {

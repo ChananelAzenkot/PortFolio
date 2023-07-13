@@ -246,6 +246,7 @@ section {
 
 .text-project p{
     text-shadow: 1px 2px 6px black;
+    text-transform: uppercase;
 }
 
 .logos {
