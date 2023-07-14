@@ -157,14 +157,13 @@ section {
 .the-box-projects {
     height: 600px;
     width: 700px;
-    background-color: #5e5f6c;
+    background-color: #5e5f6c44;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 40px;
     box-shadow: 2px 3px 10px 2px #b8b9c0;
     gap: 25px;
 }
@@ -400,6 +399,7 @@ section {
         width: 410px;
         height: 580px;
         margin-bottom: 50px;
+        border-radius: 40px;
     }
 
          .icons {
