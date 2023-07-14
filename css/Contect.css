@@ -374,15 +374,27 @@ section {
 }
 
 @media (max-width: 768px) {
+
+    .First_letter {
+        font-size: 45px;
+    }
+    .hero-text h1 {
+        font-size: 35px;
+        margin: 0 0 30px;
+        text-transform: uppercase;
+    }
     .underlineAbout{
-        width: 350px;
+        width: 400px;
     }
 
     .text-project{
         width: 420px;
     }
     .text-project p {
-        font-size: 14px;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 1.9;
+        margin: 5px;
     }
     .the-box-projects{
         width: 410px;

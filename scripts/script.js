@@ -15,6 +15,6 @@ const sr = ScrollReveal({
 
 sr.reveal(".hero-text", { delay: 100, origin: "top" });
 sr.reveal(".hero-img", { delay: 250, origin: "top" });
-sr.reveal(".icons", { delay: 300, origin: "left" });
+sr.reveal(".icons", { delay: 200, origin: "left" });
 sr.reveal(".scroll-down", { delay: 200, origin: "right" });
 
