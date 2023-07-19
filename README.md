@@ -43,8 +43,10 @@ The portfolio website is built using the following technologies:
 
 ## Contact
 
-If you have any questions or wish to connect, feel free to reach out through the following channels: [
+If you have any questions or wish to connect, feel free to reach out through the following channels:
+[
     - Email: azenkot.chananel@gmail.com
     - GitHub: https://github.com/ChananelAzenkot
     - LinkedIn: https://www.linkedin.com/in/chananel-zenkot-0b0a1a1b1/
-]. Happy to hear from you! 😊
+]
+Happy to hear from you! 😊
