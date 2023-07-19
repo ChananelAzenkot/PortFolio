@@ -23,11 +23,11 @@ This portfolio website showcases personal projects, skills, and information. Sec
 
 That page show my all project in javascript module:
 
-- **OOP-Gallery**
-- **Memory-Game**
-- **To Do List**
-- **Snake Game**
-- **Validation PassPort & ID**
+- **OOP-Gallery 🎇**
+- **Memory-Game 🤯**
+- **To Do List 📆**
+- **Snake Game 🐍**
+- **Validation PassPort & ID 🇮🇱**
 - **Multiplication ❌ Table**
 
 ## Technologies Used
@@ -36,7 +36,7 @@ The portfolio website is built using the following technologies:
 
 - HTML
 - CSS
-- JavaScript
+- JavaScript 
 - jQuery
 - Lottie Files (for animations)
 - Font Google (for fonts)
@@ -44,9 +44,9 @@ The portfolio website is built using the following technologies:
 ## Contact
 
 If you have any questions or wish to connect, feel free to reach out through the following channels:
-[
-    - Email: azenkot.chananel@gmail.com
-    - GitHub: https://github.com/ChananelAzenkot
-    - LinkedIn: https://www.linkedin.com/in/chananel-zenkot-0b0a1a1b1/
-]
+
+- Email: azenkot.chananel@gmail.com
+- GitHub: https://github.com/ChananelAzenkot
+- LinkedIn: https://www.linkedin.com/in/chananel-zenkot-0b0a1a1b1/
+
 Happy to hear from you! 😊
