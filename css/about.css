@@ -36,7 +36,8 @@ body{
 .icons {
     padding: 0 9%;
     transform: translateY(-50%);
-    display: flex;
+    display: inline-flex;
+    position: relative;
 }
 
 .icons i {
