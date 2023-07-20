@@ -203,6 +203,10 @@ section {
     width: 30%;
  }
 
+ input:focus{
+    outline: 2px solid #e4c479;
+ }
+
  input:active{
     border: none;
  }
@@ -254,6 +258,10 @@ section {
     box-sizing: border-box;
     direction: rtl;
  }
+
+    #message:focus{
+        outline: 2px solid #e4c479;
+    }
 
  .icons {
      padding: 0 9%;
