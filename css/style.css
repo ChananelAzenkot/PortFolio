@@ -174,9 +174,10 @@ section{
 .icons i{
     display: block;
     margin: 26px 0 ;
-    font-size: 24px;
+    font-size: 33px;
     color: white;
     transition: all .55s ease;
+    margin-top: 10px;
 }
 
 .icons i:hover{
