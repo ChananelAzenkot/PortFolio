@@ -261,3 +261,166 @@
             font-family: 'Poppins', sans-serif;
         }
 }
+
+@media (device-width: 834px) and (device-height: 1194px) and (orientation: portrait),
+(device-width: 1194px) and (device-height: 834px) and (orientation: landscape) {
+    .hero-text h1{
+        font-size: 48px;
+        line-height: 1;
+        color: white;
+        margin:0 0 45px;
+    }
+    .hero-img {
+        width: 380px;
+        height: 600px;
+        background: linear-gradient(180deg, #b8b9c0 0%, #5e5f6c 35%, #42424e 65.00%);
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        border-radius: 15px;
+    }
+        .hero-img:hover {
+            background: transparent;
+            border: 2px solid #e4c479;
+            transform: translateX(8px);
+            color: #e4c479;
+            transition: all .55s ease;
+            box-shadow: 1px 1px 4px #b8b9c0;
+            text-shadow: 1px 2px 8px #ffffff80;
+        }
+    .hero-text{
+        width: 300px;
+        height: 350px;
+        margin-top: 10px;
+        border-radius: 23px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .project-all{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .my_porject{
+        width: 360px;
+        height: 300px;
+        filter: drop-shadow(2px 2px 10px #00000080);
+        margin: 10px;
+        padding: 15px;
+        box-shadow: 1px 1px 6px 2px #b8b9c0;
+        transition: all .55s ease;
+        border-radius: 10px;
+    }
+    .my_porject:hover{
+        background-color: #e4c479a6;
+        transition: all .55s ease;
+    }
+
+    .my_porject h4{
+        color: white;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .my_porject img{
+        width: 320px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .logos img {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 15px;
+    }
+    
+    .my_porject p{
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        color:white;
+}
+}
+
+@media (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait),
+(device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
+    .hero-text h1{
+        font-size: 48px;
+        line-height: 1;
+        color: white;
+        margin:0 0 45px;
+    }
+    .hero-img {
+        width: 380px;
+        height: 600px;
+        background: linear-gradient(180deg, #b8b9c0 0%, #5e5f6c 35%, #42424e 65.00%);
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        border-radius: 15px;
+    }
+        .hero-img:hover {
+            background: transparent;
+            border: 2px solid #e4c479;
+            transform: translateX(8px);
+            color: #e4c479;
+            transition: all .55s ease;
+            box-shadow: 1px 1px 4px #b8b9c0;
+            text-shadow: 1px 2px 8px #ffffff80;
+        }
+    .hero-text{
+        width: 300px;
+        height: 350px;
+        margin-top: 10px;
+        border-radius: 23px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .project-all{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .my_porject{
+        width: 360px;
+        height: 300px;
+        filter: drop-shadow(2px 2px 10px #00000080);
+        margin: 10px;
+        padding: 15px;
+        box-shadow: 1px 1px 6px 2px #b8b9c0;
+        transition: all .55s ease;
+        border-radius: 10px;
+    }
+    .my_porject:hover{
+        background-color: #e4c479a6;
+        transition: all .55s ease;
+    }
+
+    .my_porject h4{
+        color: white;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .my_porject img{
+        width: 320px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .logos img {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 15px;
+    }
+}
