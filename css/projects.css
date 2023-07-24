@@ -356,7 +356,7 @@
         margin:0 0 45px;
     }
     .hero-img {
-        width: 380px;
+        width: 460px;
         height: 600px;
         background: linear-gradient(180deg, #b8b9c0 0%, #5e5f6c 35%, #42424e 65.00%);
         display: flex;
@@ -386,10 +386,10 @@
     }
     .project-all{
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
     .my_porject{
-        width: 360px;
+        width: 500px;
         height: 300px;
         filter: drop-shadow(2px 2px 10px #00000080);
         margin: 10px;
@@ -410,7 +410,7 @@
         margin-bottom: 5px;
     }
     .my_porject img{
-        width: 320px;
+        width: 400px;
         height: 250px;
         object-fit: cover;
         border-radius: 5px;
@@ -422,5 +422,5 @@
         object-fit: cover;
         border-radius: 10px;
         margin: 15px;
-    }
+        }
 }
