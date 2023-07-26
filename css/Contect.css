@@ -490,7 +490,7 @@ section {
 
         .footer-content {
             height: 90%;
-            width: 428px;
+            width: auto;
             flex-direction: column;
             justify-content: left;
             align-items: left;
