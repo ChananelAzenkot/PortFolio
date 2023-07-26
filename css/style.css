@@ -47,6 +47,85 @@ header{
     transition: .2s;
 }
 
+.footer-content{
+    background-color: #353543;
+    border-top: 3px solid #e4c479;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 9%;
+    height: 126px;
+}
+
+.footer-content h3{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.footer-content p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    line-height:28px;
+    color: #b8b9c0;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.socials li{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #5e5f6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease;
+}
+
+.socials a{
+    color: white;
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a i{
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: #e4c479;
+}
+
+.footer-bottom{
+    width: 100vw;
+    text-align: center;
+}
+.footer-bottom p{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    font-size: 12px;
+}
 .logo{
     font-size: 30px;
     font-weight: 700;
@@ -80,9 +159,8 @@ header{
 }
 
 .hero{
-    height: 100%;
     width: 100%;
-    min-height: 100vh;
+    min-height: 87.4vh;
     background: linear-gradient(360deg, #b8b9c0 0%, #5e5f6c 35%, #353543 65.00%);
     position: relative;
     display: grid;
@@ -210,7 +288,7 @@ section{
 
 .scroll-down{
     position: absolute;
-    bottom: 6%;
+    bottom: 15%;
     right: 9%; 
 }
 .scroll-down i{
@@ -251,6 +329,8 @@ section{
 }
 
 @media (max-width: 1340px){
+
+    
     .hero-img img{
         width: 100%;
         height: auto;
@@ -265,6 +345,87 @@ section{
 }
 
 @media (max-width: 1195px){
+
+
+            .footer-content {
+                    height: 90%;
+                    width: 100vw;
+                    flex-direction: column;
+                    justify-content: left;
+                    align-items: left;
+                }
+            
+                .footer-content h3 {
+                    font-size: 35px;
+                    font-weight: 600;
+                    font-family: 'Chelsea Market', cursive;
+                }
+            
+                .footer-content p {
+                    font-size: 18px;
+                    display: flex;
+                    align-items: left;
+                    width: 800px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    color: #b8b9c0;
+                    font-family: 'Chelsea Market', cursive;
+                }
+            
+                .socials {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 300px;
+                    margin-top: 20px;
+                }
+            
+                .socials li {
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 50%;
+                    background-color: #5e5f6c;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: all .4s ease;
+                }
+            
+                .socials a {
+                    color: white;
+                    font-size: 1.1rem;
+                    transition: color .4s ease;
+                    font-size: 30px;
+                }
+            
+                .socials a i {
+                    transition: color .4s ease;
+                }
+            
+                .socials a:hover i {
+                    color: #e4c479;
+                }
+            
+                .footer-bottom {
+                    width: 90vw;
+                    text-align: left;
+                }
+            
+                .footer-bottom p {
+                    display: flex;
+                    justify-content: left;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    text-align: left;
+                    width: 100%;
+                    padding-bottom: 15px;
+                }
+            
+                .footer-bottom span {
+                    text-transform: uppercase;
+                    opacity: .4;
+                    font-weight: 200;
+                    font-size: 18px;
+                }
     section{
         padding: 0 3%;
         transition: .2s;
@@ -333,6 +494,83 @@ section{
 /* for display like 6.5 inch mobile */
 @media (max-width: 768px){
 
+        .footer-content {
+                height: 100%;
+                width: 428px;
+                flex-direction: column;
+                justify-content: left;
+                align-items: left;
+            }
+        
+            .footer-content h3 {
+                font-size: 35px;
+                font-weight: 600;
+                font-family: 'Chelsea Market', cursive;
+            }
+        
+            .footer-content p {
+                font-size: 12px;
+                display: flex;
+                align-items: left;
+                width: 370px;
+                font-weight: 300;
+                line-height: 20px;
+                color: #b8b9c0;
+                font-family: 'Chelsea Market', cursive;
+            }
+        
+            .socials {
+                display: flex;
+                justify-content: space-between;
+                width: 150px;
+                margin-top: 20px;
+            }
+        
+            .socials li {
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: #5e5f6c;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all .4s ease;
+            }
+        
+            .socials a {
+                color: white;
+                font-size: 1.1rem;
+                transition: color .4s ease;
+            }
+        
+            .socials a i {
+                transition: color .4s ease;
+            }
+        
+            .socials a:hover i {
+                color: #e4c479;
+            }
+        
+            .footer-bottom {
+                width: 70vw;
+                text-align: left;
+            }
+        
+            .footer-bottom p {
+                display: flex;
+                justify-content: center;
+                font-size: 12px;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        
+            .footer-bottom span {
+                text-transform: uppercase;
+                opacity: .4;
+                font-weight: 200;
+                font-size: 12px;
+            }
+
 .navList{
     background-color: #35354395;
     -webkit-backdrop-filter: blur(8px);
@@ -378,6 +616,87 @@ section{
 }
 
 @media (max-width: 414px) {
+
+    .footer-content {
+        height: 90%;
+        width: 375px;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .footer-content h3 {
+        font-size: 35px;
+        font-weight: 600;
+        font-family: 'Chelsea Market', cursive;
+    }
+
+    .footer-content p {
+        font-size: 11px;
+        display: flex;
+        align-items: left;
+        width: 340px;
+        font-weight: 300;
+        line-height: 20px;
+        color: #b8b9c0;
+        font-family: 'Chelsea Market', cursive;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .socials li {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #5e5f6c;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        transition: all .4s ease;
+    }
+
+    .socials a {
+        color: white;
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    }
+
+    .socials a i {
+        transition: color .4s ease;
+    }
+
+    .socials a:hover i {
+        color: #e4c479;
+    }
+
+    .footer-bottom {
+        width: 70vw;
+        text-align: left;
+    }
+
+    .footer-bottom p {
+        display: flex;
+        justify-content: left;
+        font-size: 12px;
+        text-transform: capitalize;
+        text-align: left;
+        width: 300px;
+    }
+
+    .footer-bottom span {
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+        font-size: 12px;
+        text-align: left;
+    }
+
+
     .hero-text h1 {
         font-size: 35px;
         margin: 0 0 30px;
@@ -438,12 +757,6 @@ section{
     .hero-text a.ctaa i {
         vertical-align: middle;
         margin-left: 5px;
-    }
-    .hero-text a:hover {
-        background: transparent;
-        border: 1px solid #e4c479;
-        transform: translateX(8px);
-        color: #e4c479;
     }
     .hero-text a:hover {
         background: transparent;
